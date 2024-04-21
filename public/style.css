@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+body {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1{
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px; 
+  font-weight: 900; 
+  color: #060d2be9;
+}
+
+#main {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  flex-direction: column;
+}
+
+/* Style for the input with placeholder */
+.input-room-name {
+  width: 300px; 
+  padding: 10px; 
+  font-size: 16px; 
+  border: 2px solid #3498db; 
+  border-radius: 5px; 
+  margin-bottom: 10px;
+}
+
+/* Style the placeholder text */
+.input-room-name::placeholder {
+  color: #95a5a6;
+  font-style: italic; 
+  text-align: center;
+}
+
+#main button {
+  width:80px;
+  height: 50px;
+}
+
+/* Style for the Join button */
+.join-button {
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  background-color: #3498db; 
+  color: #ffffff; 
+  border: 2px solid #3498db; 
+  transition: background-color 0.3s, color 0.3s; /* Optional: Add a smooth transition */
+}
+
+/* Hover effect */
+.join-button:hover {
+  background-color: #ffffff; 
+  color: #3498db; 
+}
+
+
+#video-container {
+  display: flex;
+  justify-content: center;
+  padding: 4px 4px;
+}
+
+#user-video {
+  padding: 12px 12px;
+  height: 300px;
+  width: auto;
+}
+
+#peer-video {
+  padding: 12px 12px;
+  height: 300px;
+  width: auto;
+}
+
+
+.btn-group {
+  display: none;
+  justify-content: center;
+}
+
+.btn-group button {
+  background-color: #3498db; 
+  color: #ffffff; 
+  border: 2px solid #1566e7; 
+
+  padding: 10px 24px;
+  /* Some padding */
+  cursor: pointer;
+  /* Pointer/hand icon */
+  float: left;
+  /* Float the buttons side by side */
+}
+
+.btn-group input {
+  background-color: #3498db; 
+  color: #ffffff; 
+  border: 2px solid #1566e7; 
+
+  padding: 10px 24px;
+  /* Some padding */
+  cursor: pointer;
+  /* Pointer/hand icon */
+  float: left;
+  /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+  /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #ffffff; /* Change background color on hover */
+  color: #3498db; 
+}
+
+/* option */
+
+#fullMode {
+  display: none;
+}
+
+#presentSysAudio {
+  display: none;
+}
+
+#presentUserAudio {
+  display: none;
+}
+
+#uploaded {
+  display: none;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+#downloaded {
+  display: none;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+
+.tomato {
+  background-color: tomato;
+}
+
+
+ h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  color: #060d2be9;
+  text-align: center;
+}
+
+#roomInput {
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#join {
+  font-size: 24px;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-button {
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: 2px solid #3498db;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.join-button:hover {
+  background-color: #ffffff;
+  color: #3498db;
+}
+
+
+header {
+  text-align: center;
+}
